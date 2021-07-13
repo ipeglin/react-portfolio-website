@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <HeroSection
-                header="This is a test header"
+                header="HOME PAGE"
                 text="Nothing to see here"
                 page="home"
             />
