@@ -56,4 +56,8 @@
         width: 600px;
         margin: 0 auto;
     }
+
+    .hero-home {
+        background-position: center top;
+    }
 }
