@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
+import Tiles from '../TilesSection';
 import Footer from '../Footer';
 
 
@@ -12,6 +13,7 @@ function Home() {
                 text="Nothing to see here"
                 page="home"
             />
+            <Tiles />
             <Footer />
         </>
     )
