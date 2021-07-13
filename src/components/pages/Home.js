@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import '../../assets/img/hero-home.png'
 import Footer from '../Footer';
 
 
