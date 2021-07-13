@@ -1,0 +1,105 @@
+.contact-form-section {
+    margin-top: 26px;
+}
+
+.contact-form-section .contact-form-container {
+    background-color: #f2f2f2;
+    margin: 16px 16px 0;
+    overflow: hidden;
+}
+
+.contact-form-section .contact-form-container h2 {
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-top: 15px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.contact-form-section .contact-form-container form {
+    width: fit-content;
+    padding-top: 10px
+}
+
+.contact-form-section .contact-form-container form input {
+    font-family: Catamaran;
+    width: calc(43% - 20px);
+    float: left;
+    height: 27px;
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid #111;
+    padding: 10px;
+    margin: 10px 0 0 15px;
+    font-size: 0.9em;
+    color: #111;
+}
+
+.contact-form-section .contact-form-container form #submit {
+    height: 50px;
+    margin: 30px 15px 15px 30%;
+    padding: 5px 0 5px;
+    background-color: #111;
+    color: #FFF;
+    font-family: "Roboto Mono";
+}
+
+.contact-form-section .contact-form-container form input:nth-child(2) {
+    float: right;
+    margin: 10px 15px 0 0;
+}
+
+.contact-form-section .contact-form-container form textarea {
+    font-family: Catamaran;
+    width: 92%;
+    height: 27px;
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid #111;
+    padding: 10px 0px 25px 10px;
+    margin: 10px 15px 0;
+    font-size: 0.9em;
+    color: #111;
+}
+
+@media only screen and (min-width: 1000px) {
+    .contact-form-section .contact-form-container {
+        margin: 0;
+        width: 1000px;
+        background-color: transparent;
+    }
+
+    .contact-form-section .contact-form-container h2 {
+        font-size: 35px;
+    }
+    
+    .contact-form-section .contact-form-container form {
+        width: calc(100% - 10px);
+        padding-top: 20px;
+    }
+    
+    .contact-form-section .contact-form-container form input {
+        font-size: 1.5em;
+        background-color: transparent;
+    }
+    
+    .contact-form-section .contact-form-container form #submit {
+        margin: 50px 15px 0 30%;
+        padding-bottom: 10px;
+    }
+    
+    .contact-form-section .contact-form-container form input:nth-child(2) {
+        float: right;
+        margin: 10px 15px 0 0;
+    }
+    
+    .contact-form-section .contact-form-container form textarea {
+        margin-top: 25px;
+        font-size: 1.5em;
+        width: calc(100% - 25px);
+        padding-bottom: 35px;
+        background-color: transparent;
+    }
+}
