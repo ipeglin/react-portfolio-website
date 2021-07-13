@@ -13,7 +13,9 @@ function Home() {
                 text="Nothing to see here"
                 page="home"
             />
-            <Tiles />
+            <main>
+                <Tiles />
+            </main>
             <Footer />
         </>
     )
