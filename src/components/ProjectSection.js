@@ -12,20 +12,20 @@ function ProjectSection() {
             <section className="projects-section">
                 <h2>&#62;Previous Projects</h2>
                 <CardItem
-                    text="Met. Inst."
-                    path="/cases"
+                    text="Meteorologisk Institutt"
+                    path="/cases/meteorologisk-institutt"
                     abbreviation="mi"
                     image={miImg}
                 />
                 <CardItem
                     text="Fail2Ban"
-                    path="/cases"
+                    path="/cases/fail2ban"
                     abbreviation="f2b"
                     image={f2bImg}
                 />
                 <CardItem
                     text="Incremental Backup"
-                    path="/cases"
+                    path="/cases/incremental-backup"
                     abbreviation="ib"
                     image={ibImg}
                 />
