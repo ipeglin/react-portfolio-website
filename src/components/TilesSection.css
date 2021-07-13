@@ -1,0 +1,40 @@
+.tile-links {
+    overflow: hidden;
+}
+
+.tile-links .tile-links-link div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.tile-links .tile-links-link div h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+    .tile-links .tile-links-link div {
+        margin: 20px 10px 0;
+        height: 225px;
+        float: left;
+    }
+
+    .tile--square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .tile--rectangle {
+        width: calc(50% - 20px) !important;
+    }
+
+    .tile-links .tile-links-link div h3 {
+        line-height: 230px;
+    }
+}
