@@ -4,10 +4,12 @@ import './HeroSection.css';
 
 function HeroSection({header, text, page}) {
     return (
-        <div className={`hero-container hero-${page}`} >
-            <h2>{header}</h2>
-            {text && <p>{text}</p>}
-        </div>
+        <section className={`hero-container hero-${page}`} >
+            <div className="vertical-center">
+                <h2>{header}</h2>
+                {text && <p>{text}</p>}
+            </div>
+        </section>
     )
 }
 
