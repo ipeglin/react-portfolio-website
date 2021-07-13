@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import '../App.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -33,15 +34,15 @@ function Footer() {
                     </li>
                 </ul>
                 <div className="footer-sm">
-                    <Link to="https://github.com/ipeglin">
-                        <img src="../../assets/img/gh-logo.png" alt="GitHub Profile" />
-                    </Link>
-                    <Link to="https://linkedin.com/in/ipeglin">
-                        <img src="../../assets/img/li-logo.png" alt="LinkedIn Profile" />
-                    </Link>
-                    <Link to="https://twitter.com/PhilipEglin">
-                        <img src="../../assets/img/twitter-logo.png" alt="Twitter Profile" />
-                    </Link>
+                    <a href="https://github.com/ipeglin">
+                        <img src="../assets/img/gh-logo.png" alt="GitHub Profile" />
+                    </a>
+                    <a href="https://linkedin.com/in/ipeglin">
+                        <img src="../assets/img/li-logo.png" alt="LinkedIn Profile" />
+                    </a>
+                    <a href="https://twitter.com/PhilipEglin">
+                        <img src="../assets/img/twitter-logo.png" alt="Twitter Profile" />
+                    </a>
                 </div>
             </footer>
         </div>
