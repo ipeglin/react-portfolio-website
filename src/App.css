@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+main {
+  padding-top: 100px;
+}
+
 nav ul {
   list-style:none;
 }
@@ -13,7 +17,7 @@ nav ul {
 @media only screen and (min-width: 1000px) {
   .wrapper {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 }
 

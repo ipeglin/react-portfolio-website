@@ -8,12 +8,12 @@ import Footer from '../Footer';
 function Home() {
     return (
         <>
-            <HeroSection
-                header="HOME PAGE"
-                text="Nothing to see here"
-                page="home"
-            />
             <main>
+                <HeroSection
+                    header="HOME PAGE"
+                    text="Nothing to see here"
+                    page="home"
+                />
                 <Tiles />
             </main>
             <Footer />
