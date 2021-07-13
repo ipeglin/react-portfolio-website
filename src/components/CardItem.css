@@ -1,0 +1,42 @@
+.plain-link:visited {
+    text-decoration: none;
+    color: #111;
+}
+
+.boxlink {
+    margin: 15px auto;
+    width: calc(100% - 60px);
+    background-color: transparent;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center 15%;
+    background-size: cover;
+    display: table;
+    color: #FFF;
+    box-shadow: 0 0 2px 2px #111 inset;
+    transition-duration: 0.2s;
+}
+
+.boxlink p {
+    padding: 35px 0;
+}
+
+.boxlink:hover {
+    box-shadow: 0 0 20px 20px #111 inset;
+    transition-duration: 0.4s;
+}
+
+@media only screen and (min-width: 1000px) {
+    .boxlink {
+        width: 293px;
+        height: 280px;
+        margin: 15px 15px;
+        float: left;
+    }
+
+    .boxlink p {
+        position: relative;
+        top: 30%;
+        font-size: 25px;
+    }
+}
