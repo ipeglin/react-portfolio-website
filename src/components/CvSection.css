@@ -1,0 +1,54 @@
+.cv-section {
+    margin: 15px 15px 0;
+}
+
+.cv-section h2 {
+    font-family: "Roboto Mono";
+    font-size: 24px;
+    margin: 0 0 15px 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.cv-section .cv-infobox {
+    margin: 15px 0 30px 15px;
+}
+
+.cv-section .cv-infobox .cv-infobox-title {
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    margin: 0 0 5px 15px;
+    text-transform: uppercase;
+}
+
+.cv-section .cv-infobox .cv-infobox-place {
+   margin: 0 15px 0;
+   font-family: "Roboto Mono";
+}
+
+.cv-section .cv-infobox .cv-infobox-description {
+    margin: 5px 15px 0;
+}
+
+@media only screen and (min-width: 1000px) {
+    .cv-section h2 {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .cv-section .cv-infobox {
+        margin: 15px 0 30px 25px;
+    }
+    
+    .cv-section .cv-infobox .cv-infobox-title {
+        font-size: 25px;
+    }
+    
+    .cv-section .cv-infobox .cv-infobox-place {
+       font-size: 20px;
+    }
+    
+    .cv-section .cv-infobox .cv-infobox-description {
+        font-size: 16px;
+    }
+}
