@@ -1,0 +1,54 @@
+.contact-info-container {
+    display: hidden;
+}
+
+.contact-info .contact-info-box {
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 16px 16px 0;
+    padding: 15px 0;
+}
+
+.contact-info .contact-info-box h2 {
+    font-family: "Roboto Mono";
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.contact-info .contact-info-box p {
+    padding-top: 2%;
+    font-family: Catamaran;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+    .contact-info-container {
+        width: 1000px;
+        overflow: hidden;
+    }
+    
+    .contact-info .contact-info-box {
+        text-align: left;
+        background-color: transparent;
+        width: 300px;
+        height: 100px;
+        margin: 60px 0 90px 100px;
+        float: left;
+    }
+
+    .contact-info .contact-info-box h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+    
+    .contact-info .contact-info-box p {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+}
