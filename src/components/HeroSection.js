@@ -7,7 +7,7 @@ function HeroSection({header, text, page}) {
         <section className={`hero-container hero-${page}`} >
             <div className="vertical-center">
                 <h2>{header}</h2>
-                {text && <p>{text}</p>}
+                {text && <h1>{text}</h1>}
             </div>
         </section>
     )
