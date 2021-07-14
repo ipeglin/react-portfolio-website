@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import _ from 'underscore';
 import Footer from '../Footer';
 import HeroSection from '../HeroSection';
+import Button from '../Button';
 import CasesInfo from '../../assets/CasesInfo';
 import { useHistory } from 'react-router';
+import ArticleSection from '../ArticleSection';
 
 
 function CasePage() {
@@ -26,6 +28,8 @@ function CasePage() {
                     text={info.titleDescription}
                     page={`case-${info.abbreviation}`}
                 />
+                <ArticleSection header={info.articleHeader} text={info.description} />
+                {info.sourceLink && <Button path={info.sourceLink} buttonText="View Source" />}
             </main>
             <Footer />
         </>
