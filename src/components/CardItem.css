@@ -17,6 +17,10 @@
     transition-duration: 0.2s;
 }
 
+.boxlink p {
+    padding: 35px 0;
+}
+
 
 .boxlink:hover {
     box-shadow: 0 0 20px 20px #111 inset;
@@ -26,9 +30,15 @@
 @media only screen and (min-width: 1000px) {
     .boxlink {
         margin: 15px 15px;
+        overflow: hidden;
         float: left;
     }
     
+    .boxlink .vertical-spacer {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
     .card-item--large {
         width: 293px;
         height: 280px;
