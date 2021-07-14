@@ -5,8 +5,6 @@ import './HeroSection.css';
 
 function HeroSection({ header, text, page }) {
 
-    const headerElement = React.createElement("h2", {}, header);
-
     return (
         <section className={`hero-container hero-${page}`} >
             <div className="vertical-center">
