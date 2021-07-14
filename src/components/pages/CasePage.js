@@ -18,6 +18,7 @@ function CasePage() {
     const [info, setInfo] = useState(_.findWhere(CasesInfo, { snowflake: page }));
     useEffect(() => {
         setInfo(_.findWhere(CasesInfo, { snowflake: page }));
+        document.title = `ipeglin | ${page}`
     }, [page]);
 
     return (

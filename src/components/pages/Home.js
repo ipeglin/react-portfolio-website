@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 
 
 function Home() {
+    document.title = "ipeglin | Home"
     return (
         <>
             <main>
