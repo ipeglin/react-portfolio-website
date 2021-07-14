@@ -10,8 +10,9 @@ function Home() {
         <>
             <main>
                 <HeroSection
-                    header="HOME PAGE"
-                    text="Nothing to see here"
+                    header="<h2>I AM A CYBER SECURITY<br> STUDENT AT NTNU</h2>"
+                    text="I also have a passion for expressing my creative side.
+                    Among other things I enjoy development, photography and exercising"
                     page="home"
                 />
                 <Tiles />
