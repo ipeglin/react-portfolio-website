@@ -37,6 +37,8 @@ function Footer() {
                                     <Link to={`/cases/${obj.snowflake}`} className="footer-link">{obj.name}</Link>
                                 </li>
                             );
+                        } else {
+                            return null;
                         }
                     })}
                     {/* <li>
