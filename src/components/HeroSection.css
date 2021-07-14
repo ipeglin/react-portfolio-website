@@ -24,6 +24,22 @@
     background-image: url("../assets/img/hero-contact.png");
 }
 
+.hero-case-f2b {
+    background-image: url("../assets/img/f2bImg.PNG");
+}
+
+.hero-case-mi {
+    background-image: url("../assets/img/miImg.PNG");
+}
+
+.hero-case-ib {
+    background-image: url("../assets/img/ibImg.PNG");
+}
+
+.hero-case-clndirv2 {
+    background-image: url("");
+}
+
 .hero-container h2 {
     font-family: Catamaran;
     font-size: 60px;
