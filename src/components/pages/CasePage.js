@@ -24,7 +24,7 @@ function CasePage() {
                 <HeroSection
                     header={info.name}
                     text={info.titleDescription}
-                    page={info.snowflake}
+                    page={`case-${info.abbreviation}`}
                 />
             </main>
             <Footer />
