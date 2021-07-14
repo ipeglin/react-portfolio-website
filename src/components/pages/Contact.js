@@ -11,8 +11,7 @@ function Contact() {
         <>
             <main>
                 <HeroSection
-                    header="CONTACT PAGE"
-                    text="Nothing to see here"
+                    header="STAY WITHIN REACH"
                     page="contact"
                 />
                 <ContactInfoSection contactInfo={contactInfo} />
