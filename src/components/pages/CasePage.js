@@ -8,7 +8,7 @@ import { useHistory } from 'react-router';
 import Cases from './Cases';
 
 
-function CasePage(props) {
+function CasePage() {
     const history = useHistory();
     const [page, setPage] = useState(history.location.pathname.split('/').pop());
     useEffect(() => {
