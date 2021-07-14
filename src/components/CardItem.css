@@ -17,9 +17,6 @@
     transition-duration: 0.2s;
 }
 
-.boxlink p {
-    padding: 35px 0;
-}
 
 .boxlink:hover {
     box-shadow: 0 0 20px 20px #111 inset;
