@@ -6,11 +6,12 @@ import Footer from '../Footer';
 function About() {
     return (
         <>
-          <HeroSection
-                header="ABOUT PAGE"
-                text="Nothing to see here"
-                page="about"
-            />
+            <main>
+                <HeroSection
+                    header="IAN PHILIP EGLIN"
+                    page="about"
+                />
+            </main>
             <Footer />  
         </>
     )
