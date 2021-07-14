@@ -1,10 +1,10 @@
-import React, { createElement } from 'react';
+import React from 'react';
 import '../App.css';
 import './HeroSection.css';
+import './HeroSectionCases.css';
 
 
 function HeroSection({ header, text, page }) {
-
     return (
         <section className={`hero-container hero-${page}`} >
             <div className="vertical-center">
