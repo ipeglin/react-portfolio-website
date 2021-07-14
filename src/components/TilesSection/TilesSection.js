@@ -24,7 +24,7 @@ function TilesSection() {
                 </a>
                 <a href="https://github.com/ipeglin" className="tile-links-link">
                     <div className="tile--rectangle">
-                        <h3>Cases</h3>
+                        <h3>GitHub</h3>
                     </div>
                 </a>
                 <Link to="/about" className="tile-links-link">
