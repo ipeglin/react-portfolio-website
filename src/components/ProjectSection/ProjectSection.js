@@ -1,10 +1,10 @@
 import React from 'react';
-import CardItem from './CardItem';
+import CardItem from '../CardItem/CardItem';
 import './ProjectSection.css';
-import '../App.css';
-import f2bImg from '../assets/img/f2bImg.PNG';
-import ibImg from '../assets/img/ibImg.PNG';
-import miImg from '../assets/img/miImg.PNG';
+import '../../App.css';
+import f2bImg from '../../assets/img/f2bImg.PNG';
+import ibImg from '../../assets/img/ibImg.PNG';
+import miImg from '../../assets/img/miImg.PNG';
 
 function ProjectSection() {
     return (

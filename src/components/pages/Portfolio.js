@@ -1,8 +1,8 @@
 import React from 'react';
 import CvInfo from '../../assets/CvInfo';
-import CvSection from '../CvSection';
-import Footer from '../Footer';
-import ProjectSection from '../ProjectSection';
+import CvSection from '../CvSection/CvSection';
+import Footer from '../Footer/Footer';
+import ProjectSection from '../ProjectSection/ProjectSection';
 
 function Portfolio() {
     return (

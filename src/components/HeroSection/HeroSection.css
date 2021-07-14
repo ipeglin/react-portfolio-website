@@ -13,15 +13,15 @@
 }
 
 .hero-home {
-    background-image: url("../assets/img/hero-home.png");
+    background-image: url("../../assets/img/hero-home.png");
 }
 
 .hero-about {
-    background-image: url("../assets/img/hero-about.png");
+    background-image: url("../../assets/img/hero-about.png");
 }
 
 .hero-contact {
-    background-image: url("../assets/img/hero-contact.png");
+    background-image: url("../../assets/img/hero-contact.png");
 }
 
 .hero-container h2 {

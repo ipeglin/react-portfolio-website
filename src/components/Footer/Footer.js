@@ -1,11 +1,11 @@
 import React from 'react';
-import './Footer.css';
-import '../App.css';
-import CasesInfo from '../assets/CasesInfo';
+import '../Footer/Footer.css';
+import '../../App.css';
+import CasesInfo from '../../assets/CasesInfo';
 import { Link } from 'react-router-dom';
-import twLogo from '../assets/img/twitter-logo.png';
-import ghLogo from '../assets/img/gh-logo.png';
-import liLogo from '../assets/img/li-logo.png';
+import twLogo from '../../assets/img/twitter-logo.png';
+import ghLogo from '../../assets/img/gh-logo.png';
+import liLogo from '../../assets/img/li-logo.png';
 
 function Footer() {
     return (

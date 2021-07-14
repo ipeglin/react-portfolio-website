@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
-import Tiles from '../TilesSection';
-import Footer from '../Footer';
+import HeroSection from '../HeroSection/HeroSection';
+import Tiles from '../TilesSection/TilesSection';
+import Footer from '../Footer/Footer';
 
 
 function Home() {

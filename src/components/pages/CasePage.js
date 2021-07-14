@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import _ from 'underscore';
-import Footer from '../Footer';
-import HeroSection from '../HeroSection';
-import Button from '../Button';
+import Footer from '../Footer/Footer';
+import HeroSection from '../HeroSection/HeroSection';
+import Button from '../Button/Button';
 import CasesInfo from '../../assets/CasesInfo';
 import { useHistory } from 'react-router';
-import ArticleSection from '../ArticleSection';
+import ArticleSection from '../ArticleSection/ArticleSection';
 
 
 function CasePage() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactFormSection.css';
-import '../App.css';
+import '../../App.css';
 
 function ContactFormSection() {
     return (
