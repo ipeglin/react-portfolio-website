@@ -1,24 +1,67 @@
 const CasesInfo = [
     {
         name: "Fail2Ban",
-        url: "/cases/fail2ban",
-        snowFlake: "fail2ban",
+        titleDescription: "",
+        snowflake: "fail2ban",
         abbreviation: "f2b",
-        image: "../assets/img/f2bImg.PNG"
+        description: "",
+        isHighlighted: true
     },
     {
         name: "Meteorologisk Institutt",
-        url: "/cases/meteorologisk-institutt",
-        snowFlake: "meteorologisk-institutt",
+        titleDescription: "",
+        snowflake: "meteorologisk-institutt",
         abbreviation: "mi",
-        image: "../assets/img/miImg.PNG"
+        description: "",
+        isHighlighted: true
     },
     {
         name: "Incremental Backup",
-        url: "/cases/incremental-backup",
-        snowFlake: "incremental-backup",
+        titleDescription: "",
+        snowflake: "incremental-backup",
         abbreviation: "ib",
-        image: "../assets/img/ibImg.PNG"
+        description: "",
+        isHighlighted: true
+    },
+    {
+        name: "CleanDirV2",
+        titleDescription: "",
+        snowflake: "cleandir-v2",
+        abbreviation: "clndirv2",
+        description: "",
+        isHighlighted: true
+    },
+    {
+        name: "NEW",
+        titleDescription: "",
+        snowflake: "NEW-link",
+        abbreviation: "new",
+        description: "",
+        isHighlighted: false
+    },
+    {
+        name: "NEW",
+        titleDescription: "",
+        snowflake: "NEW-link",
+        abbreviation: "new",
+        description: "",
+        isHighlighted: false
+    },
+    {
+        name: "NEW",
+        titleDescription: "",
+        snowflake: "NEW-link",
+        abbreviation: "new",
+        description: "",
+        isHighlighted: false
+    },
+    {
+        name: "NEW",
+        titleDescription: "",
+        snowflake: "NEW-link",
+        abbreviation: "new",
+        description: "",
+        isHighlighted: false
     }
 ];
 
