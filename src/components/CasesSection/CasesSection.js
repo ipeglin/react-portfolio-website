@@ -6,6 +6,7 @@ import f2bImg from '../../assets/img/f2bImg.PNG';
 import ibImg from '../../assets/img/ibImg.PNG';
 import miImg from '../../assets/img/miImg.PNG';
 import activeDirectoryImg from '../../assets/img/activeDirectoryImg.PNG';
+import cleanDirImg from '../../assets/img/cleanDirImg.PNG';
 
 function CasesSection() {
     return (
@@ -31,14 +32,15 @@ function CasesSection() {
                     size="medium"
                 />
                 <CardItem
-                    text="AD Office Structure"
-                    path="/cases/ad-structure"
-                    image={activeDirectoryImg}
+                    text="CleanDirV2"
+                    path="/cases/cleandir-v2"
+                    image={cleanDirImg}
                     size="medium"
                 />
                 <CardItem
-                    text="N/A"
-                    path="/cases"
+                    text="AD Office Structure"
+                    path="/cases/ad-structure"
+                    image={activeDirectoryImg}
                     size="medium"
                 />
                 <CardItem
