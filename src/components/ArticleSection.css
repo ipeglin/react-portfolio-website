@@ -1,0 +1,39 @@
+.article-section {
+    margin: 35px 15px 0;
+}
+
+.article-section h2 {
+    font-family: "Roboto Mono";
+    font-size: 24px;
+    margin: 0 0 15px 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.article-section .article-textbox {
+    margin: 15px 15px 0;
+}
+
+.article-section .article-textbox p {
+    font-family: Catamaran;
+    font-size: 16px;
+}
+
+.article-section .article-textbox .article-paragraph {
+    padding-bottom: 15px; 
+}
+
+@media only screen and (min-width: 1000px) {
+    .article-section h2 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .article-section .article-textbox {
+        margin: 30px 15px 0;
+    }
+
+    .article-section .article-textbox p {
+        font-size: 20px;
+    }
+}
