@@ -4,13 +4,17 @@ import './CardItem.css';
 
 const SIZES = ["large", "medium"];
 
-function CardItem({ text, path, abbreviation, image, size }) {
+function CardItem({ text, path, image, size }) {
     const checkCardSize = SIZES.includes(size) ? size : SIZES[0];
 
     return (
         <Link to={path} className="plain-link">
-            <div className={`boxlink ${abbreviation}-img card-item--${checkCardSize}`} style={{ backgroundImage: `url(${image})`}}>
-                <p>{text}</p>
+            <div className={`boxlink card-item--${checkCardSize}`} style={{ backgroundImage: `url(${image})` }}>
+                <div className="vertical-spacer">
+                    <div>
+                        <p>{text}</p>
+                    </div>
+                </div>
             </div>
         </Link>
     )
