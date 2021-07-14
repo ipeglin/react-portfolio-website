@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import contactInfo from '../../assets/contactInfo';
+import ContactInfo from '../../assets/ContactInfo';
 import Footer from '../Footer';
 import ContactInfoSection from '../ContactInfoSection';
 import ContactFormSection from '../ContactFormSection';
@@ -14,7 +14,7 @@ function Contact() {
                     header="STAY WITHIN REACH"
                     page="contact"
                 />
-                <ContactInfoSection contactInfo={contactInfo} />
+                <ContactInfoSection contactInfo={ContactInfo} />
                 <ContactFormSection />
             </main>
             <Footer />
