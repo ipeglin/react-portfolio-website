@@ -7,6 +7,7 @@ import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Cases from './components/pages/Cases';
+import CasePage from './components/pages/CasePage';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Route path="/portfolio" exact component={Portfolio} /> {/* CHANGE THIS*/}
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
-          <Route path="/cases/" exact component={Cases} />
+          <Route path="/cases" exact component={Cases} />
+          <Route path="/cases/:case" exact component={CasePage} />
         </Switch>
       </Router>
     </div>
