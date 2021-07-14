@@ -5,6 +5,7 @@ import '../App.css';
 import f2bImg from '../assets/img/f2bImg.PNG';
 import ibImg from '../assets/img/ibImg.PNG';
 import miImg from '../assets/img/miImg.PNG';
+import activeDirectoryImg from '../assets/img/activeDirectoryImg.PNG';
 
 function CasesSection() {
     return (
@@ -14,52 +15,45 @@ function CasesSection() {
                 <CardItem
                     text="Meteorologisk Institutt"
                     path="/cases/meteorologisk-institutt"
-                    abbreviation="mi"
                     image={miImg}
                     size="medium"
                 />
                 <CardItem
                     text="Fail2Ban"
                     path="/cases/fail2ban"
-                    abbreviation="f2b"
                     image={f2bImg}
                     size="medium"
                 />
                 <CardItem
                     text="Incremental Backup"
                     path="/cases/incremental-backup"
-                    abbreviation="ib"
                     image={ibImg}
                     size="medium"
                 />
                 <CardItem
-                    text="N/A"
-                    path="/cases"
-                    abbreviation=""
+                    text="AD Office Structure"
+                    path="/cases/ad-structure"
+                    image={activeDirectoryImg}
                     size="medium"
                 />
                 <CardItem
                     text="N/A"
                     path="/cases"
-                    abbreviation=""
                     size="medium"
                 />
                 <CardItem
                     text="N/A"
                     path="/cases"
-                    abbreviation=""
                     size="medium"
                 />
                 <CardItem
                     text="N/A"
                     path="/cases"
-                    abbreviation=""
                     size="medium"
                 />
                 <CardItem
                     text="N/A"
                     path="/cases"
-                    abbreviation=""
                     size="medium"
                 />
             </section>
