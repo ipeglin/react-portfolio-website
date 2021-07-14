@@ -2,10 +2,8 @@ import React, { useState, useEffect } from 'react';
 import _ from 'underscore';
 import Footer from '../Footer';
 import HeroSection from '../HeroSection';
-import CaseList from '../../assets/CaseList';
 import CasesInfo from '../../assets/CasesInfo';
 import { useHistory } from 'react-router';
-import Cases from './Cases';
 
 
 function CasePage() {
