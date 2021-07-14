@@ -1,3 +1,5 @@
-const CaseList = ["fail2ban", "meteorologisk-institutt", "incremental-backup"];
+import CasesInfo from './CasesInfo';
+
+const CaseList = CasesInfo.map((obj) => obj.snowflake);
 
 export default CaseList;
