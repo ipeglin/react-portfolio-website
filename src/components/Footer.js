@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import '../App.css';
+import CasesInfo from '../assets/CasesInfo';
 import { Link } from 'react-router-dom';
 import twLogo from '../assets/img/twitter-logo.png';
 import ghLogo from '../assets/img/gh-logo.png';
@@ -29,7 +30,16 @@ function Footer() {
                 </ul>
                 <ul className="footer-links-cases">
                     <li><p>Latest Cases</p></li>
-                    <li>
+                    {CasesInfo.filter((obj) => obj.isHighlighted).map((obj, i) => {
+                        if (i <= 3) {
+                            return (
+                                <li>
+                                    <Link to={`/cases/${obj.snowflake}`} className="footer-link">{obj.name}</Link>
+                                </li>
+                            );
+                        }
+                    })}
+                    {/* <li>
                         <Link to="/" className="footer-link">Point 1</Link>
                     </li>
                     <li>
@@ -40,7 +50,7 @@ function Footer() {
                     </li>
                     <li>
                         <Link to="/" className="footer-link">Point 4</Link>
-                    </li>
+                    </li> */}
                 </ul>
                 <div className="footer-sm">
                     <a href="https://github.com/ipeglin">
