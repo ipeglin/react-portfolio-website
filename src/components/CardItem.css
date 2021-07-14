@@ -28,10 +28,23 @@
 
 @media only screen and (min-width: 1000px) {
     .boxlink {
-        width: 293px;
-        height: 280px;
         margin: 15px 15px;
         float: left;
+    }
+    
+    .card-item--large {
+        width: 293px;
+        height: 280px;
+    }
+
+    .card-item--medium {
+        width: 220px;
+        height: 220px;
+        margin: 20px 10px 0;
+    }
+
+    .card-item--medium p {
+        top: 25% !important;
     }
 
     .boxlink p {
