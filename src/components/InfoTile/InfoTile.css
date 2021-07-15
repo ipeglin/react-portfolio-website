@@ -31,31 +31,32 @@
     margin: 0 0 15px 15px;
 }
 
-.section .imagebox {
-    display: table-cell;
-    vertical-align: middle;
-}
 
 @media only screen and (min-width: 1000px) {
     .section {
         overflow: hidden;
     }
-
+    
     .section img {
         width: 200px;
         margin: 6% 15px 15px 15px;
     }
-
+    
     .section .infobox {
         width: 710px;
     }
-
+    
     .section .infobox h2 {
         font-size: 38px;
     }
-
+    
     .section .infobox p {
         font-size: 22px;
         line-height: 30px;
+    }
+
+    .section .imagebox {
+        display: table-cell;
+        vertical-align: middle;
     }
 }
