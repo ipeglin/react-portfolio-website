@@ -23,6 +23,15 @@
     padding-bottom: 15px; 
 }
 
+.article-section .article-textbox .article-paragraph p a{
+    font-family: Catamaran;
+    font-weight: 550;
+}
+
+.article-section .article-textbox .article-paragraph p a:visited {
+    color: blue;
+}
+
 @media only screen and (min-width: 1000px) {
     .article-section h2 {
         font-size: 30px;
