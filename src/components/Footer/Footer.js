@@ -30,7 +30,7 @@ function Footer() {
                 </ul>
                 <ul className="footer-links-cases">
                     <li><p>Latest Cases</p></li>
-                    {CasesInfo.filter((obj) => obj.isHighlighted).map((obj, i) => {
+                    {CasesInfo.filter((obj) => obj.isHighlighted).sort((a, b) => {return b.name.length - a.name.length}).map((obj, i) => {
                         if (i <= 3) {
                             return (
                                 <li>
