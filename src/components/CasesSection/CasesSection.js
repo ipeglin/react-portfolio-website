@@ -7,6 +7,7 @@ import ibImg from '../../assets/img/ibImg.PNG';
 import miImg from '../../assets/img/miImg.PNG';
 import activeDirectoryImg from '../../assets/img/activeDirectoryImg.PNG';
 import cleanDirImg from '../../assets/img/cleanDirImg.PNG';
+import hscImg from '../../assets/img/hscImg.PNG';
 
 function CasesSection() {
     return (
@@ -44,8 +45,9 @@ function CasesSection() {
                     size="medium"
                 />
                 <CardItem
-                    text="N/A"
-                    path="/cases"
+                    text="Homophonic Substitution"
+                    path="/cases/homophonic-substitution-cipher"
+                    image={hscImg}
                     size="medium"
                 />
                 <CardItem
