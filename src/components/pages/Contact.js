@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection/HeroSection';
-import ContactInfo from '../../assets/ContactInfo';
+import ContactInfo from '../../assets/data/ContactInfo';
 import Footer from '../Footer/Footer';
 import ContactInfoSection from '../ContactInfoSection/ContactInfoSection';
 import ContactFormSection from '../ContactFormSection/ContactFormSection';

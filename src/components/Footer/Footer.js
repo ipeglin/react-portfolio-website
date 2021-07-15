@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Footer/Footer.css';
 import '../../App.css';
-import CasesInfo from '../../assets/CasesInfo';
+import CasesInfo from '../../assets/data/CasesInfo';
 import { Link } from 'react-router-dom';
 import twLogo from '../../assets/img/twitter-logo.png';
 import ghLogo from '../../assets/img/gh-logo.png';

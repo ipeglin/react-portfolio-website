@@ -1,5 +1,5 @@
 import React from 'react';
-import CvInfo from '../../assets/CvInfo';
+import CvInfo from '../../assets/data/CvInfo';
 import CvSection from '../CvSection/CvSection';
 import Footer from '../Footer/Footer';
 import ProjectSection from '../ProjectSection/ProjectSection';

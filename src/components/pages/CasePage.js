@@ -3,7 +3,7 @@ import _ from 'underscore';
 import Footer from '../Footer/Footer';
 import HeroSection from '../HeroSection/HeroSection';
 import Button from '../Button/Button';
-import CasesInfo from '../../assets/CasesInfo';
+import CasesInfo from '../../assets/data/CasesInfo';
 import { useHistory } from 'react-router';
 import ArticleSection from '../ArticleSection/ArticleSection';
 

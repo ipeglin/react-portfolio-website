@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import personalia from '../../assets/personalia';
+import personalia from '../../assets/data/personalia';
 import InfoTile from '../InfoTile/InfoTile';
 import HeroSection from '../HeroSection/HeroSection';
 import Footer from '../Footer/Footer';
