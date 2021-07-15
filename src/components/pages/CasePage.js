@@ -10,16 +10,19 @@ import ArticleSection from '../ArticleSection/ArticleSection';
 
 function CasePage() {
     const history = useHistory();
-    const [page, setPage] = useState(history.location.pathname.split('/').pop());
     useEffect(() => {
         setPage(history.location.pathname.split('/').pop());
     }, [history.location.pathname]);
     
-    const [info, setInfo] = useState(_.findWhere(CasesInfo, { snowflake: page }));
+    const [page, setPage] = useState(history.location.pathname.split('/').pop());
     useEffect(() => {
         setInfo(_.findWhere(CasesInfo, { snowflake: page }));
-        document.title = `ipeglin | ${info.name}`
     }, [page]);
+    
+    const [info, setInfo] = useState(_.findWhere(CasesInfo, { snowflake: page }));
+    useEffect(() => {
+        document.title = `${info.name} | ipeglin`
+    }, [info]);
 
     return (
         <>

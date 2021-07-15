@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 
 
 function Home() {
-    document.title = "ipeglin | Home"
+    document.title = "Home | ipeglin"
     return (
         <>
             <main>

@@ -4,7 +4,7 @@ import HeroSection from '../HeroSection/HeroSection';
 import Footer from '../Footer/Footer';
 
 function About() {
-    document.title = "ipeglin | About"
+    document.title = "About | ipeglin"
     return (
         <>
             <main>

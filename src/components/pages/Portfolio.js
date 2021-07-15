@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 import ProjectSection from '../ProjectSection/ProjectSection';
 
 function Portfolio() {
-  document.title = "ipeglin | Portfolio"
+  document.title = "Portfolio | ipeglin"
     return (
       <>
         <main>

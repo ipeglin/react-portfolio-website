@@ -7,7 +7,7 @@ import ContactInfoSection from '../ContactInfoSection/ContactInfoSection';
 import ContactFormSection from '../ContactFormSection/ContactFormSection';
 
 function Contact() {
-    document.title = "ipeglin | Contact"
+    document.title = "Contact | ipeglin"
     return (
         <>
             <main>

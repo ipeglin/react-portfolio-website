@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 
 
 function Cases() {
-    document.title = "ipeglin | Cases"
+    document.title = "Cases | ipeglin"
     return (
         <>
            <main>
