@@ -70,15 +70,15 @@ const CasesInfo = [
         isHighlighted: false
     },
     {
-        name: "",
+        name: "Homophonic Substitution Cipher",
         titleDescription: "",
-        snowflake: "",
-        abbreviation: "",
-        articleHeader: "",
+        snowflake: "homophonic-substitution-cipher",
+        abbreviation: "hsc",
+        articleHeader: "Encrypting text with respects to letter frequency",
         description: [
             ``
         ],
-        sourceLink: "",
+        sourceLink: "https://github.com/ipeglin/Javascript/tree/master/Homophonic%20Substitution%20Cipher",
         isHighlighted: false
     },
     {
