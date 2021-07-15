@@ -6,7 +6,9 @@ const CasesInfo = [
         abbreviation: "f2b",
         articleHeader: "Creating a Fail2Ban solution using iptables",
         description: [
-            ""
+            "This was part of a graded assignment as part of the DCST1001 course at NTNU Trondheim, Norway. The program were to act as a homemade version of fail2ban where an IP address attempting to connect via SSH would be rejected/banned if it exceeded three failed attempts. The script would then automatically unban the IP address after 10 minutes of ban time had passed.",
+            "By utilizing iptables, which is a sort of firewall for Linux. These scripts would listen to incoming SHH requests and temporarily ban specific addresses.",
+            "This was written as an assignment for the course <a href='https://www.ntnu.no/studier/emner/DCST1001'>DCST1001</a> at NTNU, which is one of the first courses as part of the Bsc <a href='https://www.ntnu.no/studier/bdigsec'>Digital Infrastructure and Cyber Security</a>."
         ],
         sourceLink: "https://github.com/ipeglin/DCST1001",
         isHighlighted: true
@@ -33,7 +35,10 @@ const CasesInfo = [
         abbreviation: "ib",
         articleHeader: "Incremetal backup solution running from Domain Controller",
         description: [
-            ""
+            "As part of the course <a href='https://www.ntnu.no/studier/emner/DCST1005'>DCST1005</a>, student were handed out an assignment where you were to create code to perform any kind of backup solution for an office.",
+            "I chose to go for an incremental backup where only data that has been modified since the previous full backup would be saved for each day. In this way it would decrease the amount of storage space one would need on a disk, if you were to store it locally.",
+            "Since I had problems with connecting to my client VM i were not able to run the scripts from the domain controller and affect any computers in the domain. Because of this I had to settle for a local solution which meant that all computers in the domain would run the program locally and store them in a zipped folder. A major problem with this was that the case stated that this should act as some way of protection against ransomeware. As all the files were stored on the same computer, this was not possible.",
+            "To come up with a bit of a 'botchy' solution, I made it so that all the zipped folders were set to readOnly. This could of course be overwritten with an elevated executive role in a shell, but it would at least reduce the risk a tiny amount."
         ],
         sourceLink: "https://gitlab.com/ipeglin/dcst1005-assignment1",
         isHighlighted: true
