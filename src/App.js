@@ -2,12 +2,12 @@ import React from 'react';
 import NavBar from './components/NavBar/NavBar';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/Pages/Home';
-import Portfolio from './components/Pages/Portfolio';
-import About from './components/Pages/About';
-import Contact from './components/Pages/Contact';
-import Cases from './components/Pages/Cases';
-import CasePage from './components/Pages/CasePage';
+import Home from './components/pages/Home';
+import Portfolio from './components/pages/Portfolio';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Cases from './components/pages/Cases';
+import CasePage from './components/pages/CasePage';
 
 function App() {
   return (
