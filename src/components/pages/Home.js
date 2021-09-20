@@ -11,7 +11,7 @@ function Home() {
         <>
             <main>
                 <HeroSection
-                    header="<h2>I AM A CYBER SECURITY<br> STUDENT AT NTNU</h2>"
+                    header="<h2>I'M STUDYING ELECTRONIC<br>SYSTEM DESIGN AT NTNU</h2>"
                     text="I also have a passion for expressing my creative side.
                     Among other things I enjoy development, photography and exercising"
                     page="home"

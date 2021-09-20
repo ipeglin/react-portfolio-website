@@ -64,7 +64,7 @@ const CasesInfo = [
         abbreviation: "ad-ou",
         articleHeader: "Creating an AD OU Structure intended for an office",
         description: [
-            ``
+            `As part of an assignment in the course <a href='https://www.ntnu.no/studier/emner/DCST1005'>DCST1005</a>, my group was tasked with creating an OU structure for a startup company. The different departments and their computers are to be separated, and their respective groups should have access to what they need. I.E some employees should have access with keycards, but ALL employees should be able to use the printers.`
         ],
         sourceLink: "https://gitlab.stud.idi.ntnu.no/ianpe/dcst1005-assignment2",
         isHighlighted: false
@@ -76,7 +76,7 @@ const CasesInfo = [
         abbreviation: "hsc",
         articleHeader: "Encrypting text with respects to letter frequency",
         description: [
-            ``
+            `After wathcing a documentary about the Zodiac killer of San Fransisco, I was inspired to try creating a similar type of encrypting text. The method the Zodiac used is called a <i>"Homophonic Substitution Cipher"</i>, and it takes character frequency into consideration when encrypting the plain text. Even though this script utilizes the same type of encryption technique as the Zodiac ciphers, it is still bound to ASCII characters as of now.`
         ],
         sourceLink: "https://github.com/ipeglin/Javascript/tree/master/Homophonic%20Substitution%20Cipher",
         isHighlighted: false

@@ -1,6 +1,6 @@
 const ContactInfo = {
-    "address": "Nina Griegs veg 16",
-    "postCode": "7046 Trondheim, NO",
+    "address": "O. S. Bragstads Plass 2E",
+    "postCode": "7034 Trondheim, NO",
     "phoneNumber": "+47 970 85 256",
     "email": "philip@eglin.no",
     "city": "Trondheim"
