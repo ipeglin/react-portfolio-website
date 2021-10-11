@@ -9,6 +9,12 @@ import Contact from './components/pages/Contact';
 import Cases from './components/pages/Cases';
 import CasePage from './components/pages/CasePage';
 
+
+/**
+ * Function component for web app
+ * 
+ * @returns {div} Returning div element containing the app
+ */
 function App() {
   return (
     <div className="App">
