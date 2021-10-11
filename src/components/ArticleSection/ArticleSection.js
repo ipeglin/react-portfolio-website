@@ -1,6 +1,12 @@
 import React from 'react';
 import './ArticleSection.css';
 
+/**
+ * Function components for holding an article.
+ * @param {string} header  - Title of the article.
+ * @param {string} text - Text to be in the article.
+ * @returns {div} Article div containing wrapper, article section, textbox and paragraphs.
+ */
 function ArticleSection({ header, text }) {
     return (
         <div className="wrapper">
