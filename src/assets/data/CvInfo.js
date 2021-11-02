@@ -14,9 +14,15 @@ const CvInfo = {
         },
         {
             title: "University",
-            period: "2020-",
-            place: "DigSec, NTNU",
+            period: "2020-2021",
+            place: "Digital Infrastructure and Cyber Security, NTNU",
             description: "IT education with a focus on cyber security"
+        },
+        {
+            title: "University",
+            period: "2021-",
+            place: "Electronics Systems Design and Innovation, NTNU",
+            description: "Civil engineering degree with focus on electronic systems and innovative thinking"
         }
     ]
 };
