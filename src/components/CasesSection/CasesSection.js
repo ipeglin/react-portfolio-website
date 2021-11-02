@@ -8,6 +8,7 @@ import miImg from '../../assets/img/miImg.PNG';
 import activeDirectoryImg from '../../assets/img/activeDirectoryImg.PNG';
 import cleanDirImg from '../../assets/img/cleanDirImg.PNG';
 import hscImg from '../../assets/img/hscImg.PNG';
+import dvImg from '../../assets/img/dvImg.png';
 
 /**
  * Function component for holding CardItems for cases.
@@ -55,8 +56,9 @@ function CasesSection() {
                     size="medium"
                 />
                 <CardItem
-                    text="N/A"
-                    path="/cases"
+                    text="Directory Visualizer"
+                    path="/cases/directory-visualizer"
+                    image={dvImg}
                     size="medium"
                 />
                 <CardItem

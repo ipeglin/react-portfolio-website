@@ -82,15 +82,15 @@ const CasesInfo = [
         isHighlighted: false
     },
     {
-        name: "",
+        name: "Directory Visualizer",
         titleDescription: "",
-        snowflake: "",
-        abbreviation: "",
-        articleHeader: "",
+        snowflake: "directory-visualizer",
+        abbreviation: "dv",
+        articleHeader: "Visually displaying content recursively in the computer's directory",
         description: [
             ``
         ],
-        sourceLink: "",
+        sourceLink: "https://github.com/ipeglin/directory-visualiser",
         isHighlighted: false
     },
     {
