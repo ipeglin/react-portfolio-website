@@ -2,6 +2,11 @@ import React from 'react';
 import './ContactInfoSection.css';
 import '../../App.css';
 
+/**
+ * Function component containing contact information.
+ * @param {object} contactInfo - Object with contact info imported.
+ * @returns {div} Wrapper div with contact info section.
+ */
 function ContactInfoSection({ contactInfo }) {
     return (
         <div className="wrapper">

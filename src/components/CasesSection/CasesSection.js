@@ -9,6 +9,10 @@ import activeDirectoryImg from '../../assets/img/activeDirectoryImg.PNG';
 import cleanDirImg from '../../assets/img/cleanDirImg.PNG';
 import hscImg from '../../assets/img/hscImg.PNG';
 
+/**
+ * Function component for holding CardItems for cases.
+ * @returns {div} Div containing wrapper and cardItems for cases.
+ */
 function CasesSection() {
     return (
         <div className="wrapper">

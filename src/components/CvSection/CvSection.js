@@ -1,6 +1,11 @@
 import React from 'react';
 import './CvSection.css';
 
+/**
+ * 
+ * @param {object} CvInfo
+ * @returns {div} Wrapper with CV-section
+ */
 function CvSection({ CvInfo }) {
     return (
         <div className="wrapper">

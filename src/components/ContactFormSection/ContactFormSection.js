@@ -2,6 +2,10 @@ import React from 'react';
 import './ContactFormSection.css';
 import '../../App.css';
 
+/**
+ * Function component for contact form section
+ * @returns {div} Wrapper div with contact form
+ */
 function ContactFormSection() {
     return (
         <div className="wrapper">
