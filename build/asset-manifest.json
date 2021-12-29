@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b373f9e6.chunk.css",
+    "main.js": "/static/js/main.681a9ccb.chunk.js",
+    "main.js.map": "/static/js/main.681a9ccb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec787b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec787b5f.js.map",
+    "static/js/2.7c120e1b.chunk.js": "/static/js/2.7c120e1b.chunk.js",
+    "static/js/2.7c120e1b.chunk.js.map": "/static/js/2.7c120e1b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b373f9e6.chunk.css.map": "/static/css/main.b373f9e6.chunk.css.map",
+    "static/js/2.7c120e1b.chunk.js.LICENSE.txt": "/static/js/2.7c120e1b.chunk.js.LICENSE.txt",
+    "static/media/HeroSectionCases.css": "/static/media/miImg.acdb2b26.PNG",
+    "static/media/avatar.9c0cf306.gif": "/static/media/avatar.9c0cf306.gif",
+    "static/media/fingerprint.321df2b6.gif": "/static/media/fingerprint.321df2b6.gif",
+    "static/media/heart.d4a42317.gif": "/static/media/heart.d4a42317.gif",
+    "static/media/HeroSection.css": "/static/media/hero-home.dde9158c.png",
+    "static/media/li-logo.7ce4b3f1.png": "/static/media/li-logo.7ce4b3f1.png",
+    "static/media/twitter-logo.d8fe1187.png": "/static/media/twitter-logo.d8fe1187.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec787b5f.js",
+    "static/js/2.7c120e1b.chunk.js",
+    "static/css/main.b373f9e6.chunk.css",
+    "static/js/main.681a9ccb.chunk.js"
+  ]
+}
