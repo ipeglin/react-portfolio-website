@@ -1,5 +1,6 @@
 import React from 'react';
 import './ContactFormSection.css';
+import '../ContactForm/ContactForm';
 import '../../App.css';
 
 /**
