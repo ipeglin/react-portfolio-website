@@ -10,31 +10,43 @@ function ContactForm() {
     }
     return (
         <form onSubmit={handleSubmit}>
+            <br />
             <label htmlFor="email">
                 Email Address
             </label>
+            <br />
             <input
                 id="email"
                 type="email"
                 name="email"
+                placeholder="foo@bar.com"
+                className="no-outline"
             />
             <ValidationError
                 prefix="Email"
                 field="email"
                 errors={state.errors}
             />
+            <br /><br />
+            <label htmlFor="message">
+                Message
+            </label>
             <textarea
                 id="message"
                 name="message"
+                className="no-outline"
             />
             <ValidationError
                 prefix="Message"
                 field="message"
                 errors={state.errors}
             />
-            <button type="submit" disabled={state.submitting}>
-                Send
-            </button>
+            <br />
+            <div>
+                <button id="submit" type="submit" disabled={state.submitting}>
+                    Send
+                </button>
+            </div>
         </form>
     )
 }

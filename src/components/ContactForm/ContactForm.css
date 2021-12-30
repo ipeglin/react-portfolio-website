@@ -1,0 +1,90 @@
+form {
+    width: fit-content;
+    padding-top: 10px
+}
+
+form label {
+    display: block;
+    margin-left: 15px;
+}
+
+form input {
+    font-family: Catamaran;
+    width: 150%;
+    float: left;
+    height: 27px;
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid #111;
+    padding: 0 10px 0 10px;
+    margin-left: 15px;
+    font-size: 0.9em;
+    color: #111;
+}
+
+form div {
+    padding-left: 20px 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+form div button {
+    position: relative;
+    left: 35%;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #111;
+    color: #FFF;
+    font-family: "Roboto Mono";
+}
+
+form textarea {
+    font-family: Catamaran;
+    width: 150%;
+    height: 100px;
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid #111;
+    padding: 10px 0px 25px 10px;
+    margin: 10px 15px 0;
+    font-size: 0.9em;
+    color: #111;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    form {
+        width: calc(100% - 10px);
+        padding-top: 20px;
+    }
+    
+    form input {
+        font-size: 1.5em;
+        position: relative;
+        width: calc(100% - 10px);
+        background-color: transparent;
+    }
+
+    form div {
+        margin: 40px 0 20px 0;
+    }
+
+    form div button {
+        position: relative;
+        left: 5px;
+        height: 50px;
+        width: 75%;
+    }
+    
+    form textarea {
+        margin-top: 25px;
+        font-size: 1.5em;
+        width: calc(100% - 10px);
+        padding-bottom: 35px;
+        background-color: transparent;
+    }
+}
