@@ -9,12 +9,15 @@
     padding: 15px 0;
 }
 
+.contact-info .contact-info-box .uppercase{
+    text-transform: uppercase;
+}
+
 .contact-info .contact-info-box h2 {
     font-family: "Roboto Mono";
     font-size: 24px;
     font-weight: 600;
     color: #111;
-    text-transform: uppercase;
 }
 
 .contact-info .contact-info-box p {
@@ -23,7 +26,6 @@
     font-size: 14px;
     font-weight: 600;
     color: #111;
-    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 1000px) {
