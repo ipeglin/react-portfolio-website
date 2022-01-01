@@ -56,6 +56,14 @@ form textarea {
     outline: none;
 }
 
+#success-response {
+    text-align: center;
+}
+
+#success-response p {
+    padding: 10px 0 30px 0;
+}
+
 @media only screen and (min-width: 1000px) {
     form {
         width: calc(100% - 10px);
@@ -86,5 +94,10 @@ form textarea {
         width: calc(100% - 10px);
         padding-bottom: 35px;
         background-color: transparent;
+    }
+
+    #success-response p {
+        padding: 30px 0 45px 0;
+        font-size: 23px;
     }
 }
