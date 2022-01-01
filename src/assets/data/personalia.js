@@ -1,7 +1,7 @@
 const personalia = [
     {
         header: "About me",
-        text: `I am 21 years old, and I was born and raised in Oslo, Norway.<br><br> I have always been filled with curiousity, and found my passion for science and technology early in life.When it comes to my interests I am a jack of many trades, but being with family and friends will always be one of the things most important to me.`
+        text: `I am ${new Date(Date.now()).getFullYear() - new Date(947977200000).getFullYear()} years old, and I was born and raised in Oslo, Norway.<br><br> I have always been filled with curiousity, and found my passion for science and technology early in life.When it comes to my interests I am a jack of many trades, but being with family and friends will always be one of the things most important to me.`
     },
     {
         header: "Identity",
